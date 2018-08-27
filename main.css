@@ -1,0 +1,51 @@
+#container > div {
+    position: absolute;
+    top: 323px;
+    /* background-color: black;
+    width: 640px; */
+}
+#contollers > div {
+    display: inline;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#contollers{
+    z-index: 2147483647;
+    transition: 
+        display cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+/* .fullscreen{
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    height: auto !important;
+    z-index: 100000;
+    background-color: black;
+    background-size: cover;
+} */
+
+video::-webkit-media-controls-enclosure {
+    display:none !important;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+#seekerbar{
+    width: 200px;
+}
+
+#volumebar{
+    width: 90px;
+}
+
+#fullscreen{
+    margin-left: 98px;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+}
